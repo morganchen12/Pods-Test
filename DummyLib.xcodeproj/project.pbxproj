@@ -10,6 +10,8 @@
 		8DB7D5011DBEA9A5005B908F /* DummyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB7D4F71DBEA9A5005B908F /* DummyLib.framework */; };
 		8DB7D5061DBEA9A5005B908F /* DummyLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7D5051DBEA9A5005B908F /* DummyLibTests.m */; };
 		8DB7D5081DBEA9A5005B908F /* DummyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB7D4FA1DBEA9A5005B908F /* DummyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE3D4A01DBEAA7A00EF5152 /* DLPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE3D49E1DBEAA7A00EF5152 /* DLPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE3D4A11DBEAA7A00EF5152 /* DLPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE3D49F1DBEAA7A00EF5152 /* DLPrinter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		8DB7D5001DBEA9A5005B908F /* DummyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB7D5051DBEA9A5005B908F /* DummyLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DummyLibTests.m; sourceTree = "<group>"; };
 		8DB7D5071DBEA9A5005B908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE3D49E1DBEAA7A00EF5152 /* DLPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPrinter.h; sourceTree = "<group>"; };
+		8DE3D49F1DBEAA7A00EF5152 /* DLPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPrinter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				8DB7D4FA1DBEA9A5005B908F /* DummyLib.h */,
+				8DE3D49E1DBEAA7A00EF5152 /* DLPrinter.h */,
+				8DE3D49F1DBEAA7A00EF5152 /* DLPrinter.m */,
 				8DB7D4FB1DBEA9A5005B908F /* Info.plist */,
 			);
 			path = DummyLib;
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DB7D5081DBEA9A5005B908F /* DummyLib.h in Headers */,
+				8DE3D4A01DBEAA7A00EF5152 /* DLPrinter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE3D4A11DBEAA7A00EF5152 /* DLPrinter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +394,7 @@
 				8DB7D50D1DBEA9A5005B908F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DB7D50E1DBEA9A5005B908F /* Build configuration list for PBXNativeTarget "DummyLibTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +403,7 @@
 				8DB7D5101DBEA9A5005B908F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
